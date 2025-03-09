@@ -1,1 +1,10 @@
-<p>alarms works!</p>
+<div class="alarms">
+    <h2>Mis Alarmas</h2>
+    <button (click)="addAlarm()">Añadir Alarma</button>
+  
+    <div *ngFor="let alarm of alarms" class="alarm-item">
+      <span>{{ alarm.time }} - {{ alarm.name }}</span>
+      <button (click)="deleteAlarm(alarm)">Eliminar</button>
+    </div>
+  </div>
+  

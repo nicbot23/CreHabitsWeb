@@ -1,0 +1,20 @@
+.alarms {
+    padding: 20px;
+  }
+  
+  .alarm-item {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF3E0;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  button {
+    background: #FF9800;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
